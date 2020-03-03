@@ -1,0 +1,95 @@
+// .CardBackground {
+//   background-image: url("../Img/Cocktail.svg");
+//   width: 90%;
+//   background-position: center;
+//   margin: 0 auto;
+//   height: 303px;
+//   background-size: cover;
+//   background-position: center;
+// }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .CardBackground {
+    background-image: url("../Img/Cocktail.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 303px;
+    width: 90%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 2em;
+    padding: 20px;
+    .card-title {
+      margin: 0;
+    }
+  }
+  h3 {
+    position: absolute;
+
+    height: 34.71px;
+    left: 25px;
+    top: 196.29px;
+    // color: red;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  p {
+    position: absolute;
+    width: 80px;
+    height: 13px;
+    left: 12px;
+    top: 260px;
+    // color: red;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .mainIngredients {
+    display: flex;
+    flex-direction: row;
+    .buttonIngredient {
+      margin: -15px 10px;
+      h4 {
+        background-color: rgba(255, 255, 255, 0.557);
+
+        padding-top: 10px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 18px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// .mainIngredients {
+//   display: flex;
+//   padding: 0.7em 0;
+// }
+// ​ .buttonIngredient {
+//   background-color: rgba(255, 255, 255, 0.557);
+//   color: #dd0909;
+//   margin-right: 20px;
+//   border-radius: 20px;
+//   padding: 0.2em 1em;
+//   h4 {
+//     margin: 0;
+//   }
+// }
+// ​ .property-bloc-title {
+//   margin: 0.6em 0;
+// }
